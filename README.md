@@ -23,7 +23,7 @@ First of all it has to be a MP3 or a WAV.
 ## Blanking
 Blanking uses a 3rd audio channel (like in surround sound) to control if the oscilloscope beam is on or not. This code supports Blanking.
 ## High-Speed Deflection
-High-Speed Deflection is when the creator makes the beam flick really fast not giving time for the phosphor time to exite and emit light. This is simulated to an extent.
+High-Speed Deflection is when the beam is flicked really fast not giving time for the phosphor time to exite and emit light. This is simulated to an extent.
 # Having trouble finding Oscilloscope Music to play?
 Go to https://drive.google.com/drive/mobile/folders/1dBNj6WniA38wQldp5JbD0_3EadZwmOOu thats where Chris Allen posts his songs for free downlaod.
 ## Warning:
