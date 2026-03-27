@@ -17,7 +17,7 @@ First of all it has to be a MP3 or a WAV.
 1. Make a folder the name doesn't matter.
 2. Place the python code in it
 3. Place the target audio file in it
-Then run it and have fun!
+4. Then run it and have fun!
 
 # Special Features
 ## Blanking
