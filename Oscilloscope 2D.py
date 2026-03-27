@@ -320,16 +320,13 @@ class WarningScreen:
         self.duration = 5.0
         self.start_time = time.time()
         
-        # Pulling from your existing font logic
         mono = pygame.font.match_font("couriernew,liberationmono,dejavusansmono,monospace") or ""
         self.fnt_big = pygame.font.Font(mono, 40)
         self.fnt_warn = pygame.font.Font(mono, 80)
         
-        # Reuse your scanline helper
         self.scanlines = make_scanline_overlay(WIN_W, WIN_H)
 
     def draw_warning_symbol(self, y_center, alpha):
-        # Draw the triangle using your UI border color
         points = [
             (WIN_W // 2, y_center - 45),      # Top
             (WIN_W // 2 - 55, y_center + 45), # Bottom Left
@@ -372,7 +369,7 @@ class WarningScreen:
             self.draw_warning_symbol(WIN_H // 2 - 160, alpha)
             self.draw_warning_symbol(WIN_H // 2 + 160, alpha)
 
-            # Draw text using your UI text colors
+            # Draw text
             text = self.fnt_big.render("EPILEPSY WARNING", True, C_TEXT)
             text.set_alpha(alpha)
             text_rect = text.get_rect(center=(WIN_W // 2, WIN_H // 2))
