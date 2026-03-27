@@ -646,6 +646,8 @@ class OscilloscopeViewer:
 
 
 # ─── Entry point ─────────────────────────────────────────────────────────────
+import shutil  # Add this to your imports at the top!
+
 if __name__ == "__main__":
     script_dir = Path(__file__).resolve().parent
     audio = find_audio(script_dir)
@@ -655,18 +657,23 @@ if __name__ == "__main__":
     main_screen = pygame.display.set_mode((WIN_W, WIN_H))
     main_clock = pygame.time.Clock()
 
+    # --- ERROR CHECK 1: File Existence ---
     if audio is None:
-        # 1. Trigger Error Screen
         err = ErrorScreen(main_screen, main_clock, "ERROR: No audio file (.wav/.mp3) found.")
         err.run()
-        # 2. Exit after error screen is closed
         pygame.quit()
         sys.exit()
 
-    # If we get here, the file exists! 
-    # Run Warning
+    # --- ERROR CHECK 2: FFmpeg for MP3s ---
+    if audio.suffix.lower() == ".mp3" and not shutil.which("ffmpeg"):
+        err = ErrorScreen(main_screen, main_clock, "ERROR: FFmpeg not found. Required for MP3 playback.")
+        err.run()
+        pygame.quit()
+        sys.exit()
+
+    # If all checks pass, proceed
     warn = WarningScreen(main_screen, main_clock)
     warn.run()
 
-    # Run Viewer
+    # Start the viewer
     OscilloscopeViewer(audio).run()
