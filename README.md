@@ -18,7 +18,11 @@ First of all it has to be a MP3 or a WAV.
 2. Place the python code in it
 3. Place the target audio file in it
 4. Then run it and have fun!
-
+# Keyboard Controls
+* Space -> Pause/Play
+* Right Arrow -> Skip 5 seconds forwards
+* Left Arrow -> Rewind 5 seconds backwards
+* R -> Render to MP4
 # Special Features
 ## Blanking
 Blanking uses a 3rd audio channel (like in surround sound) to control if the oscilloscope beam is on or not. This code supports Blanking.
