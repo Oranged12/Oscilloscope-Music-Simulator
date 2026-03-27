@@ -15,10 +15,10 @@ You **must** Have [FFMPEG](https://www.ffmpeg.org/) installed for this code to w
 
 # How to choose an audio file
 First of all it has to be a MP3 or a WAV.
-1. Make a folder the name doesn't matter.
-2. Place the python code in it
-3. Place the target audio file in it
-4. Then run it and have fun!
+1. Download the zip
+2. Extract the zip
+3. Place your oscilloscope music audio file inside of the resulting folder
+4. Run the code inside the folder and have fun!
 # Keyboard Controls
 * Space -> Pause/Play
 * Right Arrow -> Skip 5 seconds forwards
