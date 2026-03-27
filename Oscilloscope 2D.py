@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Oscilloscope Music Viewer — 2D XY Edition
-Supports: WAV only
+Supports: WAV and MP3
 
 Dependencies:
     pip3 install pygame numpy soundfile imageio imageio-ffmpeg
