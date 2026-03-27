@@ -26,6 +26,8 @@ Blanking uses a 3rd audio channel (like in surround sound) to control if the osc
 High-Speed Deflection is when the beam is flicked really fast not giving time for the phosphor time to exite and emit light. This is simulated to an extent.
 ## Glow/Theme
 This Python has a scan line filter, green theme, and every element has a glow to it.
+## Video Rendering
+Yes this code allows you to render the Oscilloscope music Visualization to a MP4. **However** this process can be CPU demanding, and extremely slow. Only start the rendering process if you jave 20+ Minutes to spare.
 # Having trouble finding Oscilloscope Music to play?
 Go to https://drive.google.com/drive/mobile/folders/1dBNj6WniA38wQldp5JbD0_3EadZwmOOu thats where Chris Allen posts his songs for free downlaod.
 ## Warning:
