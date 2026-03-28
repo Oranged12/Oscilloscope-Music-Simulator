@@ -13,7 +13,7 @@ This code works on Python Version 3.6 and newer, and version 3.12 and older.
 4. imageio
 5. imageio-ffmpeg
 
-You **must** Have [FFMPEG]([https://www.ffmpeg.org/](https://drive.google.com/file/d/1xkIF6zfR0w1p8x5wYWBZPI95yY6uuwXo/view?usp=sharing) in the same folder as the script for this code to work with mp3 files or to render videos. FFMPEG is too big to include in this repo, so you have to place it in the fodler manually
+You **must** Have [FFMPEG](https://drive.google.com/file/d/1xkIF6zfR0w1p8x5wYWBZPI95yY6uuwXo/view?usp=sharing) in the same folder as the script for this code to work with mp3 files or to render videos. FFMPEG is too big to include in this repo, so you have to place it in the fodler manually
 
 # How to choose an audio file
 First of all it has to be a MP3 or a WAV.
