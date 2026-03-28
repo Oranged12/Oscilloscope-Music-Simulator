@@ -38,5 +38,6 @@ Yes this code allows you to render the Oscilloscope music Visualization to a MP4
 **WARNING** this feature is **NOT** to be used for pirating Oscilloscope music. Made by hard working Oscilloscope music creators.
 # Having trouble finding Oscilloscope Music to play?
 Go to https://drive.google.com/drive/mobile/folders/1dBNj6WniA38wQldp5JbD0_3EadZwmOOu thats where Chris Allen posts his songs for free download.
+Or use the included one. The included one is in the right place already and doesn't need to be moved anywhere to work.
 ## Warning:
 Some may experience epileptic symptoms upon using this
