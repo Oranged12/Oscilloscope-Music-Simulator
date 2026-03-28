@@ -17,8 +17,9 @@ You **must** Have [FFMPEG](https://www.ffmpeg.org/) installed for this code to w
 First of all it has to be a MP3 or a WAV.
 1. Download the zip
 2. Extract the zip
-3. Place your oscilloscope music audio file inside of the resulting folder
-4. Run the code inside the folder and have fun!
+3. Delete the included audio file (Moon Patrol DeRastered.mp3)
+4. Place your oscilloscope music audio file inside of the resulting folder
+5. Run the code inside the folder and have fun!
 # Keyboard Controls
 * Space -> Pause/Play
 * Right Arrow -> Skip 5 seconds forwards
