@@ -11,7 +11,7 @@ This code works on Python Version 3.6 and newer, and version 3.12 and older.
 4. imageio
 5. imageio-ffmpeg
 
-You **must** Have [FFMPEG](https://www.ffmpeg.org/) installed for this code to work with mp3 files.
+You **must** Have [FFMPEG](https://www.ffmpeg.org/) installed for this code to work with mp3 files or to render videos.
 
 # How to choose an audio file
 First of all it has to be a MP3 or a WAV.
