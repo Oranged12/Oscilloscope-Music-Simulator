@@ -37,6 +37,8 @@ High-Speed Deflection is when the beam is flicked really fast not giving time fo
 This Python has a scan line filter, green theme, and every element has a glow to it.
 ## Video Rendering
 Yes this code allows you to render the Oscilloscope music Visualization to a MP4. **However** this process can be CPU demanding, and extremely slow. Only start the rendering process if you have 20+ Minutes to spare.
+## 60fps cap
+You don't need any higher, and it makes it less demanding for stronger setups.
 **WARNING** this feature is **NOT** to be used for pirating Oscilloscope music. Made by hard working Oscilloscope music creators.
 # Having trouble finding Oscilloscope Music to play?
 Go to https://drive.google.com/drive/mobile/folders/1dBNj6WniA38wQldp5JbD0_3EadZwmOOu thats where Chris Allen posts his songs for free download.
