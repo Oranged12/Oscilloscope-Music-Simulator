@@ -16,7 +16,7 @@ This code works on Python Version 3.6 and newer, and version 3.12 and older.
 You **must** Have [FFMPEG](https://drive.google.com/file/d/1xkIF6zfR0w1p8x5wYWBZPI95yY6uuwXo/view?usp=sharing) in the same folder as the script for this code to work with mp3 files or to render videos. FFMPEG is too big to include in this repo, so you have to place it in the fodler manually. If you don't trust that google drive exe then go to ffmpeg.org and download the ffmpeg zip. extract it. And delete everything except for "ffmpeg.exe", rename it to "FFMPEG.exe" (full caps is the change) and place it in the folder with the script.
 
 # How to choose an audio file
-First of all it has to be a MP3 or a WAV.
+First of all it has to be a MP3 or a WAV. Allthough MP3 is **HIGHLY** discourged due to compression losses. (it does impact outcome alot)
 1. Download the zip
 2. Extract the zip
 3. Delete the included audio file (Moon Patrol DeRastered.mp3)
