@@ -2,7 +2,7 @@
 An Oscilloscope Simulator on Python to display Oscilloscope music!
 <img width="1276" height="717" alt="image" src="https://github.com/user-attachments/assets/6e64cf64-ca5b-4aa6-85ce-ddd71bc87d2b" />
 
-This code works Theoretically on Python Version 3.8 and up. And tested down to Python Version 3.13
+This code works on Python Version 3.6 and newer, and version 3.12 and older.
 
 ## Libraies include
 1. Pygame
